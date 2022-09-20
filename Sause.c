@@ -3,6 +3,9 @@
 #include <math.h>
 #include <stdlib.h>
 #define _weights 3
+
+
+
 double w[_weights];
 double activate(double a) {
     return (a <= 0) ? 0 : 1;
